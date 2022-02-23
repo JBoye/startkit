@@ -1,0 +1,15 @@
+{
+  "name": "ts-scss-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate for Typescript+SCSS Projects",
+  "scripts": {
+    "start": "concurrently --raw \"tsc --watch --preserveWatchOutput\" \"sass --watch scss:public/css\" \"wds --node-resolve --watch --open --app-index index.html\""
+  },
+  "author": "Jonas Boye",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.30",
+    "concurrently": "^7.0.0",
+    "sass": "^1.49.8",
+    "typescript": "^4.5.5"
+  }
+}
